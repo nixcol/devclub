@@ -1,0 +1,45 @@
+
+
+<input autocomplete="street-address">
+<!-- auto completa o endereço, por exemplo -->
+
+<input disabled value="Nicole">
+<!-- desabilita o input. pode usar readonly também -->
+
+<input placeholder="Digite seu nome!">
+<!-- placeholder é o texto que aparece dentro do input quando ele está vazio -->
+
+<!-- quando eu quero botar um texto junto com o meu input, uso label. pode botar o input dentro do label ou usar uma id no input -->
+<label>
+  Rua:
+  <input autocomplete="street-address" placeholder="Digite sua rua">
+</label>
+<label for="rua">Rua:</label>
+<input autofocus autocomplete="street-address" id="rua">
+<!-- autofocus faz com que o input seja selecionado automaticamente quando a página carrega. se tiver vários ele vai pro primeiro que ele encontrar -->
+
+<input type="color">
+<!-- abre uma paleta de cores -->
+
+<input type="range" min="0" max="10" value="0">  
+<!-- cria uma barra de rolagem -->
+
+<input type="password">
+<!-- esconde o que está sendo digitado -->
+
+<input type="email">
+<!-- valida se o que está sendo digitado é um email -->
+
+<input type="checkbox">
+<!-- cria uma caixa de seleção -->
+
+<input type="file" multiple accept="png">
+<!-- cria um botão para selecionar arquivos. multiple permite selecionar mais de um arquivo. accept permite selecionar apenas arquivos com a extensão especificada -->
+
+<input type="number">
+<!-- cria um input somente para números -->
+
+<input type="radio">
+<!-- cria um botão de seleção. se eles tiverem o mesmo name, eu só posso escolher uma -->
+
+

@@ -1,0 +1,29 @@
+<!-- captura dados de entrada (input)
+    action: define para qual url será enviado os dados, vazio envia para mesma url. 
+    method
+      - GET
+      - POST -->
+
+
+<form action="" method="get" enctype="multipart/form-data"> 
+  <!-- quando usa o método get, vc envia as informações pela url. pelo método post, ele envia "escondido".  -->
+  <h1>Digite seu endereço</h1>
+    <!-- a gente pode botar 100 inputs dentro do form e ele vai nos dar elas organizadas -->
+    <label for="rua">Rua:</label>
+    <input type="text" name="rua" autocomplete="street-address">
+
+    <label for="numero">Número:</label>
+    <input type="number" name="numero">
+
+    <input type="file" name="arquivo">
+    <!-- se tiver enviando arquivo no formulário, tem que botar enctype form-data pra avisar pro servidor que estão indo arquivos -->
+
+    <button type="submit">Enviar dados</button> <!-- botão de submit tem que estar dentro do formulário pq aí ele sabe que ele vai pegar os dados de todos os campos e enviar  -->
+
+    <button type="reset">Resetar</button>
+    <!-- ele vai resetar todos os campos -->
+
+</form>
+
+<button type="button" disabled>ENVIAR</button>
+<!-- botão desabilitado -->
