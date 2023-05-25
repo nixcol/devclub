@@ -1,0 +1,42 @@
+* {
+  /* seletor * representa a aplicação em TODOS os elementos */
+}
+
+/* identificando elementos HTML
+   - class: a classe seria como um CEP, ela serve para identificar vários elementos. vários elementos podem usar a mesma classe e conseguimos estilizalos com CSS
+   - ID: o ID seria como o CPF ou RG. serve para identificar apenas UM elemento. ou seja, você só pode usar um ID específico uma vez na sua página HTML */
+
+h1 {
+  /* a primeira forma de selecionar é pela tag normal mesmo, ela seleciona todos os elementos que tem essa tag 
+  OBRIGATÓRIO PONTO E VÍRGULA NOS VALORES DAS PROPRIEDADES */
+  color: yellow;
+  background: black;
+}
+
+#titulo {
+  /* a segunda forma de selecionar é pelo ID, que é representado pelo # */
+  color: red;
+  font-size: 55px;
+}
+
+.texto {
+  /* a terceira forma de selecionar é pela classe, que é representada pelo . */
+  color: red;
+  font-weight: bold;
+}
+
+/* podemos selecionar vários elementos ao mesmo tempo, separando-os por vírgula */
+h1, .texto, #botao {
+  color: pink;
+}
+
+/* CSS => folha de estilo em cascata
+    - cascata: sempre vai prevalecer o que vier depois
+    - ordem de prioridade: ID > classe > tag
+    - !important: força a aplicação de uma propriedade, mesmo que ela esteja sendo sobrescrita por outra
+    - herança: algumas propriedades são herdadas pelos elementos filhos, como por exemplo a cor da fonte
+    - propriedades: são os atributos que podemos aplicar aos elementos, como cor, tamanho, etc
+    - valores: são os valores que podemos atribuir às propriedades, como por exemplo, a cor vermelha, o tamanho 20px, etc
+ */
+
+

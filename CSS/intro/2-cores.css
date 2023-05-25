@@ -1,0 +1,16 @@
+h1 {
+  /* rgb é uma sigla pra red, green, blue. podemos formar qualquer cor com a mistura delas
+    255 é o valor máximo */
+  background: rgb(red, green, blue);
+}
+
+p {
+  /* rgba é a mesma coisa que rgb, só que com o alpha, que é a transparência */
+  background: rgba(red, green, blue, alpha);
+}
+
+button {
+  /* hex é a forma mais comum de se escrever cores. é o código hexadecimal
+  site interessante: adobe color, coolors.co e a extensão colorzilla  */
+  background: #4ab4ab8c;
+}
