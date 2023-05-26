@@ -1,9 +1,8 @@
 /* 
 - absolutas: (sempre vai ser esse tamanho)
    px (pixels) 1/100 polegada (A ÚNICA USADA)
-   in (inches/polegadas) 2,54cm
-   cm / mm (u know)
-- relativas: (relativas a alguém)
+ 
+- relativas: (relativas a alguém, qnd vc quer q se adapte mais de acordo com o tamanho da tela por ex)
   % - calcula o tamanho relativo ao elemento pai 
   vw (View Width) - 1vw é 1% da largura da janela do navegador
   vh (View Height) - 1vh é 1% da altura da janela do navegador
@@ -12,17 +11,20 @@
   */
 
 .vo {
-
+  font-size: 16px;
 }
 
 .pai {
-  width: 100px;
-  height: 100px;
+  width: 50vw;
+  height: 50vw;
   background: blue;
+  color: white;
+  font-size: 2em;
 }
 
 .filho {
   width: 50%;
   height: 50%;
   background: red;
+  font-size: 2em;
 }

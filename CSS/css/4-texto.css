@@ -1,0 +1,20 @@
+h1 {
+  color: pink;  
+  font-size: 64px;
+  font-family: 'Pangolin', cursive;
+  font-style: italic;
+}
+
+p {
+  font-family: 'Pangolin', cursive;
+  color: aqua;
+  font-size: 30px;
+  font-weight: lighter;
+  line-height: 20px; /* espaço entre as linhas */
+  letter-spacing: 10px; /* espaço entre as letras */
+  word-spacing: 20px; /* espaço entre as palavras */
+  text-align: center; /* alinhamento do texto */
+  text-transform: uppercase; /* transforma o texto em maiúsculo */
+  text-decoration: underline; /* sublinha o texto */
+  text-shadow: 10px 10px 10px red; /* sombra do texto, horizontal, vertical, esfumaçado e cor */
+}
