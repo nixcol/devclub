@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box; /* vai fazer com que o padding e o margin sejam acoplados dentro do elemento. ele nunca vai deixar a caixa crescer */
+  /* box-sizing: content-box; vai crescendo conforme eu boto novos elementos*/
+}
+
+.box {
+  width: 100px; /* width + padding + border = 100px */
+  height: 100px;
+  background-color: aqua;
+  padding: 20px;
+  border: 10px solid #000;
+}
+
+/* box sizing sempre vai acoplar os outros valores dentro do meu elemento  */

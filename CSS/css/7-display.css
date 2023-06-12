@@ -1,0 +1,38 @@
+/* display: como vai ser a disposição dos itens na tela
+
+>>> block
+  - vem como padrão: div, section, h1, h2, ul, li, article...
+  - vai ocupar toda a largura da tela (100% da largura do elemento pai)
+  - sempre ocupa toda sua linha 
+  - altura pode ser definida de acordo com o conteúdo
+  - podemos definir height e width
+  - podemos definir margin
+
+>>> inline
+  - vem como padrão: span, a, strong, em, img, input...
+  - elementos em linha 
+  - não podemos definir height e width
+  - não podemos definir valores de margin top e bottom
+  - ganha comportamento de texto
+
+>>> inline-block
+  - vem como padrão: button, select, textarea...
+  - elementos em linha 
+  - podemos definir height e width
+  - podemos definir valores de margin top e bottom
+
+ */
+
+.box {
+  background: pink;
+  height: 50px;
+  width: 50px;
+}
+
+.box-2 {
+  background: yellow;
+}
+
+.box-3 {
+  background: blue;
+}
